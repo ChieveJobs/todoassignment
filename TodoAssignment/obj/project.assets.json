@@ -3618,11 +3618,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jakob\\source\\repos\\TodoAssignment\\TodoAssignment\\TodoAssignmentAPI.csproj",
+      "projectUniqueName": "C:\\Users\\jakob\\Desktop\\todoassignment\\TodoAssignment\\TodoAssignmentAPI.csproj",
       "projectName": "TodoAssignmentAPI",
-      "projectPath": "C:\\Users\\jakob\\source\\repos\\TodoAssignment\\TodoAssignment\\TodoAssignmentAPI.csproj",
+      "projectPath": "C:\\Users\\jakob\\Desktop\\todoassignment\\TodoAssignment\\TodoAssignmentAPI.csproj",
       "packagesPath": "C:\\Users\\jakob\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jakob\\source\\repos\\TodoAssignment\\TodoAssignment\\obj\\",
+      "outputPath": "C:\\Users\\jakob\\Desktop\\todoassignment\\TodoAssignment\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
