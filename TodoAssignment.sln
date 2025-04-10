@@ -5,6 +5,8 @@ VisualStudioVersion = 17.13.35818.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoAssignmentAPI", "TodoAssignment\TodoAssignmentAPI.csproj", "{0B50FF0A-D4BF-4445-BBA8-36CF906564CC}"
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "todoweb", "todoweb\todoweb.esproj", "{895BF98C-F5A6-49A5-8ACD-220AD0F79085}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{0B50FF0A-D4BF-4445-BBA8-36CF906564CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B50FF0A-D4BF-4445-BBA8-36CF906564CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B50FF0A-D4BF-4445-BBA8-36CF906564CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{895BF98C-F5A6-49A5-8ACD-220AD0F79085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{895BF98C-F5A6-49A5-8ACD-220AD0F79085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{895BF98C-F5A6-49A5-8ACD-220AD0F79085}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{895BF98C-F5A6-49A5-8ACD-220AD0F79085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{895BF98C-F5A6-49A5-8ACD-220AD0F79085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{895BF98C-F5A6-49A5-8ACD-220AD0F79085}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

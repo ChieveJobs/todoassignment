@@ -4,14 +4,15 @@ using TodoAssignment.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Define CORS Policy
 var corsPolicy = "_myAllowSpecificOrigins";
 
 // Add services to the container.
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy(corsPolicy, policy =>
+    options.AddPolicy(corsPolicy, policy => // Make sure corsPolicy matches
     {
-        policy.WithOrigins("http://localhost:5173") // Frontend URL (React app)
+        policy.WithOrigins("http://localhost:51274") // Replace with your frontend URL
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
@@ -41,7 +42,7 @@ if (app.Environment.IsDevelopment())
 }
 
 // Enable CORS
-app.UseCors(corsPolicy);
+app.UseCors(corsPolicy); // Make sure to use the correct policy name
 
 // Enable HTTPS Redirection and authorization middleware
 app.UseHttpsRedirection();
